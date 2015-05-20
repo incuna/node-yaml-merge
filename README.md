@@ -21,6 +21,7 @@ var mergedConfig = yamlMerge.mergeFiles([
 * Docker
 * Docker compose
 
+
 * All work to be done via pull-requests
 * To run tests `docker-compose run grunt test`
 
