@@ -1,4 +1,4 @@
-module.exports = function () {
+(function() {
     'use strict';
 
     var _ = require('lodash');
@@ -27,7 +27,8 @@ module.exports = function () {
         return appConfig;
     };
 
-    return {
+    module.exports = {
         mergeFiles: mergeFiles
     };
-};
+
+})();
