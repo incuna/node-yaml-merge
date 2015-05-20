@@ -1,0 +1,12 @@
+grunt:
+  build: ./
+  volumes:
+    - ./:/data
+  working_dir: /data
+  entrypoint: ['grunt']
+npm:
+  image: node:0.12
+  volumes:
+    - ./:/data
+  working_dir: /data
+  entrypoint: ['npm', '--no-bin-link']
