@@ -20,6 +20,6 @@ var mergedConfig = yamlMerge.mergeFiles([
 * All work to be done via pull-requests
 
 ## Releases
-* Assign the release number. Use semver for versioning.
+* Work out the new release version using semver
 * Add changes since the last release to the `CHANGELOG.md`
 * Tag the repository with the new version
