@@ -1,6 +1,9 @@
 module.exports = function (grunt) {
     'use strict';
 
+    // Use jit-grunt to only load necessary tasks for each invocation of grunt.
+    require('jit-grunt')(grunt);
+
     grunt.initConfig({
         // Configurable paths
         config: {
