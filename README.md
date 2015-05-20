@@ -17,11 +17,12 @@ var mergedConfig = yamlMerge.mergeFiles([
 ```
 
 ## Development
+
 ### Requirements
 * Docker
 * Docker compose
 
-
+### Submitting code 
 * All work to be done via pull-requests
 * To run tests `docker-compose run grunt test`
 
