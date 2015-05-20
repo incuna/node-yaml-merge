@@ -18,5 +18,13 @@
   "dependencies": {
     "lodash": "2.4.1",
     "grunt": "0.4.5"
+  },
+  "devDependencies": {
+    "grunt": "0.4.5",
+    "grunt-contrib-jshint": "0.10.0",
+    "grunt-jscs": "1.2.0"
+  },
+  "scripts": {
+    "test": "grunt test"
   }
 }
