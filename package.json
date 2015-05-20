@@ -1,7 +1,7 @@
 {
   "name": "yaml-merge",
   "description": "provides helper nodeJS module to merge multiple yaml files in order",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/incuna/node-yaml-merge",
   "author": {
     "name": "Incuna Ltd.",
